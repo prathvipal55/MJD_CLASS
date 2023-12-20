@@ -24,32 +24,3 @@ menu_item.forEach((item) => {
 	});
 });
 
-// Get the modal and form elements
-var modal = document.getElementById('myModal');
-var registrationForm = document.getElementById('registrationForm');
-var span = document.getElementsByClassName('close')[0];
-
-// Display the modal when the form is submitted
-registrationForm.addEventListener('submit', function (event) {
-  event.preventDefault(); // Prevents the default form submission
-  modal.style.display = 'block';
-
-  // Close the modal after 3 seconds (adjust as needed)
-  setTimeout(function () {
-    modal.style.display = 'none';
-    // Redirect to the home page (replace 'home.html' with your actual home page URL)
-    window.location.href = 'home.html';
-  }, 3000);
-});
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = 'none';
-};
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target === modal) {
-    modal.style.display = 'none';
-  }
-};

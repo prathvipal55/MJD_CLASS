@@ -353,7 +353,7 @@ p {
 	border-radius: 10px;
 }
 #projects .project-info {
-	padding: 30px;
+	/* padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
 	display: flex;
@@ -361,9 +361,17 @@ p {
 	justify-content: center;
 	flex-direction: column;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	color: white;
+	color: white; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
 }
-#projects .project-info h1 {
+/* #projects .project-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
@@ -374,7 +382,7 @@ p {
 }
 #projects .project-info p {
 	color: white;
-}
+} */
 #projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
