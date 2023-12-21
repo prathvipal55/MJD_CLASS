@@ -79,6 +79,7 @@ p {
 	top: 0;
 	width: 100vw;
 	height: auto;
+	background-color: rgb(rgb(193, 238, 252), green, blue);
 }
 #header .header {
 	min-height: 8vh;
