@@ -264,6 +264,43 @@ p {
 
 /* End Hero Section */
 
+/* Services Section */
+.dropdown {
+	position: static;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display:block;
+  }
+
+  /* Add this style to hide sub-dropdown content by default */
+.sub-dropdown-content {
+	display: inline-block;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	left: 100%;
+	top: 0;
+  }
+  
+  /* Add this style to show sub-dropdown content when the parent is hovered or clicked */
+  .sub-dropdown:hover .sub-dropdown-content {
+	display: block;
+  }  
+  /* End Services Section */
+
 /* facilities Section */
 #facilities .facilities {
 	flex-direction: column;

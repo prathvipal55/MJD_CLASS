@@ -24,7 +24,22 @@
           </div>
           <ul>
             <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="=#services" data-after="Services">Services</a></li>
+            <li class="dropdown">
+              <a href="#" data-after="Services">Services</a>
+              <div class="dropdown-content">
+                <a href="#" class="sub-dropdown" onclick="toggleDropdown(this)">Notes</a>
+                <div class="sub-dropdown-content">
+                  <a href="#">Option 1</a>
+                  <a href="#">Option 2</a>
+                  <!-- Add more options as needed -->
+                </div>
+                <a href="#">Previous Year Papers</a>
+                <a href="#">Online Study Material</a>
+                <a href="#">Courses</a>
+                <a href="#">Career Guidance for Students</a>
+                <a href="#">New Skills</a>
+              </div>
+            </li>
             <li><a href="#facilities" data-after="Facilities">Facilities</a></li>
             <li><a href="#projects" data-after="Projects">Gallary</a></li>
             <li><a href="#about" data-after="About">About</a></li>
@@ -135,7 +150,7 @@
           </div>
         </div>
         <div class="project-item">
-           <div class="project-img">
+          <div class="project-img">
             <img src="/1.png" alt="img">
           </div>
           <div class="project-img">
