@@ -23,3 +23,11 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+document.getElementById('registerButton').addEventListener('click', function() {
+    // Specify the URL of your registration form page
+    var registrationFormURL = 'registration.html';
+
+    // Open the registration form page in a new tab
+    window.open(registrationFormURL, '_blank');
+});
